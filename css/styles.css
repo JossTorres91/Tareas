@@ -1,6 +1,7 @@
 body{
 font-family: 'Roboto',
 sans-serif;
+width: 1600px;
 }
 body, .headernav, .filter button{
 color: #212121;
@@ -108,4 +109,26 @@ border-width: 1px;
 .filter button:focus,
 .servicebtn{
 background-color: #2196F3;
+}
+header{
+height: 80px;
+box-sizing: content-box;
+display: flex;   
+justify-content: space-between;
+}
+header nav{
+width: 531px;
+box-sizing: inherit;
+display: flex;
+justify-content: space-between; 
+align-items: center;
+padding: 0px 0px 0px 215px;
+}
+header div{
+width: 303px;
+box-sizing: inherit;
+display: flex;
+justify-content: space-between;  
+align-items: center;
+padding: 0px 219px 0px 0px;
 }
