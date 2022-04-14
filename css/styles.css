@@ -1,33 +1,85 @@
 body{
-font-family: 'Raleway',
+font-family: 'Roboto',
 sans-serif;
+}
+body, .headernav{
+color: #212121;
 }
 header a, address a, address p{
     font-style: normal;
     text-decoration: none;
 }
 .webs{
-    font-weight: 700;
-}
-h1{
-font-family: 'Roboto',
-sans-serif;
-font-weight: 900;
-}
-.servicebtn,.features th,h2{
-font-family: 'Roboto',
+font-family: 'Raleway',
 sans-serif;
 font-weight: 700;
 }
+h1{
+font-weight: 900;
+font-size: 44px;
+}
+.servicebtn,.features th,h2{
+font-weight: 700;
+}
 .headernav,header>div, .name{
-font-family: 'Roboto',
-sans-serif;
 font-weight: 500;
 }
 .features td, .position, address p,.footeradd{
-font-family: 'Roboto',
-sans-serif;
 font-weight: 400;
 }
-
-
+.webs:hover,.webs:focus{
+color: blueviolet;
+}
+.headernav:hover, .headerlink:hover, .footeradd:hover,
+.headernav:focus, .headerlink:focus, .footeradd:focus,
+.webs{
+color: #2196F3;
+}
+.servicebtn:hover,.servicebtn:focus{
+background-color:#fff;
+color: #2196F3;
+}
+.headerlink, .features td, .position{
+color: #757575;
+}
+.solutions, footer{
+background-color:#2F303A
+}
+h1,.servicebtn, address p{
+color: #fff;    
+}
+.servicebtn{
+background-color:#2196F3;
+font-family: 'Roboto',
+sans-serif;
+line-height: 1.88;
+}
+.footeradd{
+color: #ffffff99;
+}
+.webs{
+font-size: 26px;
+}
+.headernav,.headerlink, .features th,
+.features td, address p, .footeradd{
+font-size: 14px;
+}
+.servicebtn,.name,.position{
+font-size: 16px;    
+}
+h2{
+font-size: 36px;
+}
+header nav, header div, .features th,
+h2, .name, .position, .webs{
+line-height: 1.17;
+}
+h1{
+line-height: 1.36;
+}
+.features td, address p, .footeradd{
+line-height: 1.71;
+}
+.servicebtn{
+cursor: pointer;
+}
