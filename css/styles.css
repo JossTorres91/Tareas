@@ -2,5 +2,32 @@ body{
 font-family: 'Raleway',
 sans-serif;
 }
-<--font-family: 'Roboto',
-sans-serif;-->
+header a, address a, address p{
+    font-style: normal;
+    text-decoration: none;
+}
+.webs{
+    font-weight: 700;
+}
+h1{
+font-family: 'Roboto',
+sans-serif;
+font-weight: 900;
+}
+.servicebtn,.features th,h2{
+font-family: 'Roboto',
+sans-serif;
+font-weight: 700;
+}
+.headernav,header>div, .name{
+font-family: 'Roboto',
+sans-serif;
+font-weight: 500;
+}
+.features td, .position, address p,.footeradd{
+font-family: 'Roboto',
+sans-serif;
+font-weight: 400;
+}
+
+
