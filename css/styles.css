@@ -130,7 +130,7 @@ box-sizing: inherit;
 display: flex;
 justify-content: space-between; 
 align-items: center;
-padding: 0px 0px 0px 215px;
+padding: 24px 0px 25px 215px;
 }
 header div{
 width: 303px;
@@ -189,4 +189,13 @@ padding: 60px 0px 60px 215px;
 }
 .footeradd{
 display: flex;
+}
+.portfoliofig{
+width: 100%;
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+.portfoliofig figure{
+border-bottom: 1px solid #eee ;
 }
