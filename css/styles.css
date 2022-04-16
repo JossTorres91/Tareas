@@ -119,82 +119,56 @@ background-color: #F5F4FA;
 background-color: #2196F3;
 }
 header{
-box-sizing: content-box;
-display: flex;   
-justify-content: space-between;
+box-sizing: content-box;  
 border-bottom: 1px solid #ececec;
+}
+main,header, header nav, header div,.wedo
+.wedopic,.ourteam,.ourteamfig,.section,
+.footeradd,.portfoliofig{
+display: flex;
+}
+header,header nav, header div,.wedopic
+,.ourteamfig,.portfoliofig{
+justify-content: space-between;
 }
 header nav{
 width: 531px;
 box-sizing: inherit;
-display: flex;
-justify-content: space-between; 
-align-items: center;
 padding: 24px 0px 25px 215px;
+}
+main,header nav,header div,.section{
+align-items: center;
 }
 header div{
 width: 303px;
-box-sizing: inherit;
-display: flex;
-justify-content: space-between;  
-align-items: center;
+box-sizing: inherit;  
 padding: 0px 219px 0px 0px;
 }
-.solutions{
+.solutions,.wedo,.wedopic,
+.ourteam,.ourteamfig,.section,
+.portfoliofig{
 width: 100%;   
 }
-main{
-display: flex;
+main,.wedo,.section{
 flex-direction: column;
-align-items: center;
 }
 .container{
 width: 1200px;
 }
-.wedo{
-width: 100%;  
-display: flex;  
-flex-direction: column;
-}
-.wedopic{
-width: 100%;
-display: flex;
-justify-content: space-between;
-}
 .ourteam{
-width: 100%;
-display: flex; 
 justify-content: center;   
 }
-.ourteamfig{
-width: 100%;
-display: flex;
-justify-content: space-between;    
-}
-.name,.position{
+.name,.position,h1{
 text-align: center;
 }
 .section{
-width: 100%;
 padding: 94px 0px;
-display: flex;
-flex-direction: column;
-align-items: center;
-}
-h1{
-text-align: center;
 }
 address{
 padding: 60px 0px 60px 215px;    
 }
-.footeradd{
-display: flex;
-}
 .portfoliofig{
-width: 100%;
-display: flex;
 flex-wrap: wrap;
-justify-content: space-between;
 }
 .portfoliofig figure{
 border-bottom: 1px solid #eee ;
